@@ -1,0 +1,15 @@
+{
+  "name": "sniperstack",
+  "description": "The SniperStack plugin for Claude Code.",
+  "owner": {
+    "name": "SniperStack",
+    "url": "https://sniperstack.com"
+  },
+  "plugins": [
+    {
+      "name": "sniperstack",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
