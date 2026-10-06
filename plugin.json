@@ -9,7 +9,14 @@
   },
   "homepage": "https://sniperstack.com",
   "repository": "https://github.com/sniperstack-ai/sniperstack-plugin",
-  "keywords": ["ecommerce", "cod", "product-research", "landing-pages", "dropshipping"],
+  "license": "MIT",
+  "keywords": [
+    "ecommerce",
+    "cod",
+    "product-research",
+    "landing-pages",
+    "dropshipping"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
@@ -18,7 +25,10 @@
         "longDescription": "SniperStack helps cash-on-delivery sellers find products that sell and launch them fast. Browse the Marketplace Radar for the best sellers on AliExpress, 1688, Alibaba, Wildberries and Temu, add a product to your store from a supplier link or from its details and photos, and create an AI-written landing page for it — all from a chat.",
         "developerName": "SniperStack",
         "category": "Productivity",
-        "capabilities": ["Read", "Write"],
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
         "websiteURL": "https://sniperstack.com",
         "privacyPolicyURL": "https://sniperstack.com/en/privacy-policy#ai-assistants",
         "termsOfServiceURL": "https://sniperstack.com/en/terms-of-service",

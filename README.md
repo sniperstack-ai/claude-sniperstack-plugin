@@ -64,6 +64,10 @@ Without an account, `https://mcp.sniperstack.com/public` offers the Marketplace 
 
 Open an issue in this repository, or contact us through [sniperstack.com](https://sniperstack.com).
 
+## License
+
+The plugin files in this repository are released under the [MIT License](LICENSE). The SniperStack service they connect to is governed by its [terms of service](https://sniperstack.com/en/terms-of-service).
+
 ## Repository layout
 
 | Path | For |

@@ -9,7 +9,14 @@
   },
   "homepage": "https://sniperstack.com",
   "repository": "https://github.com/sniperstack-ai/sniperstack-plugin",
-  "keywords": ["ecommerce", "cod", "product-research", "landing-pages", "dropshipping"],
+  "license": "MIT",
+  "keywords": [
+    "ecommerce",
+    "cod",
+    "product-research",
+    "landing-pages",
+    "dropshipping"
+  ],
   "icon": "./assets/icon.png",
   "documentationUrl": "https://github.com/sniperstack-ai/sniperstack-plugin#readme",
   "supportUrl": "https://github.com/sniperstack-ai/sniperstack-plugin/issues",
