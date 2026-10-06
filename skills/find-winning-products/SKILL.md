@@ -27,5 +27,4 @@ Wildberries), with prices in USD.
 ## Next step
 
 Offer to add a shortlisted product to the seller's store with the `add-product`
-skill. The Radar is a free preview; the full Radar is in the SniperStack app
-(`full_radar_url` in the result).
+skill.
