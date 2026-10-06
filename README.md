@@ -1,7 +1,7 @@
 # SniperStack plugin
 
 Find winning products, add them to your [SniperStack](https://sniperstack.com) store and
-launch cash-on-delivery landing pages from Claude, ChatGPT or Codex.
+launch cash-on-delivery landing pages from Claude.
 
 The plugin connects your assistant to the SniperStack MCP server at
 `https://mcp.sniperstack.com/` and adds three skills that guide it through the work.
@@ -39,11 +39,6 @@ Then run `/mcp`, choose **sniperstack** and sign in.
 
 Settings → Connectors → **Add custom connector**, and paste `https://mcp.sniperstack.com/`.
 
-### ChatGPT and Codex
-
-Install **SniperStack** from the plugin directory once it is listed. To test this
-repository locally, add it as a repo marketplace (`.agents/plugins/marketplace.json`).
-
 ## Sign in
 
 The first time the assistant uses a tool, it opens SniperStack in your browser. Sign in,
@@ -72,9 +67,8 @@ The plugin files in this repository are released under the [MIT License](LICENSE
 
 | Path | For |
 | --- | --- |
-| `.claude-plugin/plugin.json`, `.mcp.json` | Claude Code |
-| `.claude-plugin/marketplace.json` | Claude Code marketplace (`sniperstack`) |
-| `plugin.json`, `mcp.json` | OpenAI plugins (ChatGPT, Codex) |
-| `.agents/plugins/marketplace.json` | OpenAI repo marketplace |
-| `skills/` | Shared by both |
+| `.claude-plugin/plugin.json` | Plugin manifest |
+| `.claude-plugin/marketplace.json` | Marketplace `sniperstack`, so `claude plugin marketplace add` works |
+| `.mcp.json` | The SniperStack MCP server |
+| `skills/` | The three skills |
 | `assets/` | Icon and logo |
