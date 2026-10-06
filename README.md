@@ -29,7 +29,7 @@ The assistant cannot read your orders, your buyers, your payments or your settin
 ### Claude Code
 
 ```bash
-claude plugin marketplace add sniperstack-ai/sniperstack-plugin
+claude plugin marketplace add sniperstack-ai/claude-sniperstack-plugin
 claude plugin install sniperstack@sniperstack
 ```
 

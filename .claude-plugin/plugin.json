@@ -8,7 +8,7 @@
     "url": "https://sniperstack.com"
   },
   "homepage": "https://sniperstack.com",
-  "repository": "https://github.com/sniperstack-ai/sniperstack-plugin",
+  "repository": "https://github.com/sniperstack-ai/claude-sniperstack-plugin",
   "license": "MIT",
   "keywords": [
     "ecommerce",
@@ -18,8 +18,8 @@
     "dropshipping"
   ],
   "icon": "./assets/icon.png",
-  "documentationUrl": "https://github.com/sniperstack-ai/sniperstack-plugin#readme",
-  "supportUrl": "https://github.com/sniperstack-ai/sniperstack-plugin/issues",
+  "documentationUrl": "https://github.com/sniperstack-ai/claude-sniperstack-plugin#readme",
+  "supportUrl": "https://github.com/sniperstack-ai/claude-sniperstack-plugin/issues",
   "privacyPolicyUrl": "https://sniperstack.com/en/privacy-policy#ai-assistants",
   "termsOfServiceUrl": "https://sniperstack.com/en/terms-of-service"
 }
