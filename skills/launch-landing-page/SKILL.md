@@ -19,18 +19,18 @@ by name or SKU, or `status: "ready"` to see which products can get a page now.
 
 Call `create-landing-page` with the product's `id` as `product_id`.
 
-- `content_source`: `ai` (default) writes the copy and makes section images;
-  `manual` uses the product's own name, description and photos with no AI.
+- `content_source`: `ai` (default) writes the copy with AI, over the product's own
+  photos; `manual` uses the product's own name, description and photos with no AI.
+  Neither makes new images. The seller can change the page's photos later in the
+  page builder.
 - `theme` (optional): the page design. Left out, SniperStack picks the design
   recommended for the product. It cannot be changed later, so only set it when the
   seller asks for a specific design.
 - `country` (optional): sets the page language and currency. Defaults to the
   product's country.
-- `image_count` (optional, AI only): 0 to 4 section images. Each theme allows only
-  some counts; if the tool refuses the number, use one it lists or leave it out.
 
 With `ai`, the page goes live at once with `generation_status: "generating"` and
-fills in over a few minutes. Give the seller both links from the result:
+fills in within a minute or two. Give the seller both links from the result:
 `public_url` (the page buyers see) and `builder_url` (where they edit it).
 
 If the tool says the plan has no room, tell the seller they can upgrade the plan.
