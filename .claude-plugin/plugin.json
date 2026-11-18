@@ -1,8 +1,8 @@
 {
   "name": "sniperstack",
   "displayName": "SniperStack",
-  "version": "1.0.0",
-  "description": "Find winning products, add them to your SniperStack store and launch COD landing pages, from Claude.",
+  "version": "1.1.0",
+  "description": "Find winning products, add them to your SniperStack store, launch COD landing pages and ask about your orders, operators, stock and money, from Claude.",
   "author": {
     "name": "SniperStack",
     "url": "https://sniperstack.com"
